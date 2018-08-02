@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Моя визитная карточка</title>
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dimsemenov-Magnific-Popup-2ff1692/dist/magnific-popup.css">
+    <script src="dimsemenov-Magnific-Popup-2ff1692/dist/jquery.magnific-popup.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+
+            $('.img-block').magnificPopup({
+                delegate: 'a',
+                type: 'image'
+
+            });
+        });
+
+    </script>
+</head>
+
+<body>
+    <div class="flex">
+        <div class="content">
+            <header>
+                <a href="#">Главная</a>
+                <a href="#">Архив работ</a>
+            </header>
+
+            <h1>Это было изучено</h1>
+
+
+            <div class="img-block">
+                <a href="img/html5.png"><img src="img/html5.png" alt="html"></a>
+                <a href="img/css.png"><img src="img/css.png" alt="css"></a>
+                <a href="img/js.jpg"><img src="img/js.jpg" alt="js"></a>
+
+            </div>
+
+            <a id="link" href="#"> еще больше</a>
+
+        </div>
+        <footer>Все права защищены 2018</footer>
+    </div>
+</body>
+
+</html>
