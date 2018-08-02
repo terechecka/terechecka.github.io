@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Моя визитная карточка</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="flex">
+        <div class="content">
+            <header>
+                <a href="#">Главная</a>
+                <a href="#">Изученный материал</a>
+            </header>
+
+            <h1>Блог начинающего программиста</h1>
+                <main>
+                <img src="#" alt="я">
+                <p>Здесь будет информация обо мне</p>
+            </main>
+        </div>
+        <footer>Все права защищены 2018</footer>
+    </div>
+</body>
+
+</html>
